@@ -10,7 +10,7 @@
     <style>
  @media only screen and (max-width: 620px) {
   /* For mobile phones: */
-  .container,.row,input,button{
+  input,button{
     width: 100%;
   }
 }
@@ -19,13 +19,14 @@
 </head>
 <body>
     <!-- git push -u origin main -->
-    🙄
+    
     <div class="container">
         <div class="to-do-app">
             <h2>To Do List <img src="icon.png" alt="icon"></h2>
             <div class="row">
                 <input type="text" id="input-box" placeholder="Add Task">
                 <button onclick="addTask()">Add</button>
+
             </div>
             <ul id="list-container"></ul>
         </div>
